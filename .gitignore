@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+*.txt
+*.json
+/PROYECTOBD/.vs/PROYECTOBD/CopilotIndices/17.14.1661.41761
+*.vsidx
