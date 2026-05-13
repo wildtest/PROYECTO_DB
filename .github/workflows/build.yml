@@ -8,11 +8,11 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2025-vs2026
 
     env:
       # Ajusta la ruta a tu archivo .slnx
-      SOLUTION_PATH: "PROYECTO/PROYECTOBD.sln"
+      SOLUTION_PATH: "PROYECTOBD/PROYECTOBD.sln"
       BUILD_CONFIGURATION: Release
 
     steps:
