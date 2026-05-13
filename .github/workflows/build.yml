@@ -44,7 +44,7 @@ jobs:
           path: D:/a/PROYECTO_DB/PROYECTO_DB/PROYECTOBD/artifacts/**/*.dacpac
 
   deploy:
-    runs-on: windows-latest
+    runs-on: windows-2025-vs2026
     needs: build # IMPORTANTE: Espera a que el job de build termine con éxito
     
     steps:
